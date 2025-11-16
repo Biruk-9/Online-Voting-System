@@ -64,7 +64,7 @@ const Voting = () => {
     };
 
     const handleShare = (platform) => {
-        const electionUrl = `https://online-voting-system-vw8v.onrender.com/elections/${election._id}`;
+        const electionUrl = `https://online-voting-system-front.onrender.com/elections/${election._id}`;
         const shareText = `Check out this election: ${election.title}`;
         let shareUrl = '';
 
