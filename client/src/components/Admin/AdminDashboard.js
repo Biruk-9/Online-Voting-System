@@ -22,7 +22,7 @@ const AdminDashboard = () => {
     const fetchElections = async () => {
       setLoading(true);
       try {
-        const response = await axios.get('http://localhost:3500/elections', {
+        const response = await axios.get('https://online-voting-system-vw8v.onrender.com/elections', {
           headers: {
             Authorization: `Bearer ${token}`,
           },

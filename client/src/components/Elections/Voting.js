@@ -29,7 +29,7 @@ const Voting = () => {
 
     const fetchElection = async (electionId, token) => {
         try {
-            const { data } = await axios.get(`http://localhost:3500/elections/${electionId}`, {
+            const { data } = await axios.get(`https://online-voting-system-vw8v.onrender.com/elections/${electionId}`, {
                 headers: { Authorization: `Bearer ${token}` },
             });
             setElection(data);
@@ -64,7 +64,7 @@ const Voting = () => {
     };
 
     const handleShare = (platform) => {
-        const electionUrl = `http://localhost:3000/elections/${election._id}`;
+        const electionUrl = `https://online-voting-system-vw8v.onrender.com/elections/${election._id}`;
         const shareText = `Check out this election: ${election.title}`;
         let shareUrl = '';
 

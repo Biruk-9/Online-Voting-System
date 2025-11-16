@@ -53,7 +53,7 @@ const VoterRegistration = () => {
         userID: formData.userID || `user-${Date.now()}`,
       };
 
-      const response = await axios.post('http://localhost:3500/register', userData);
+      const response = await axios.post('https://online-voting-system-vw8v.onrender.com/register', userData);
 
       if (response.status === 201) {
         setSuccess('Success: Registration completed! You can now log in.');

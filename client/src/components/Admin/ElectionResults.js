@@ -16,7 +16,7 @@ const ElectionResults = () => {
                 setLoading(true); // Set loading to true when request starts
                 const token = localStorage.getItem('token');
                 const { data } = await axios.post(
-                    `http://localhost:3500/votes/results/${electionID}`,
+                    `https://online-voting-system-vw8v.onrender.com/votes/results/${electionID}`,
                     {}, // Empty body for POST request if not required
                     {
                         headers: { Authorization: `Bearer ${token}` },

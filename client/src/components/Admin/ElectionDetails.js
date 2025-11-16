@@ -16,7 +16,7 @@ const ElectionDetails = () => {
         const fetchElectionDetails = async () => {
             try {
                 const token = localStorage.getItem('token');
-                const response = await axios.get(`http://localhost:3500/elections/${id}`, {
+                const response = await axios.get(`https://online-voting-system-vw8v.onrender.com/elections/${id}`, {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
@@ -34,7 +34,7 @@ const ElectionDetails = () => {
     const handleDelete = async () => {
         try {
             const token = localStorage.getItem('token');
-            await axios.delete(`http://localhost:3500/elections/${id}`, {
+            await axios.delete(`https://online-voting-system-vw8v.onrender.com/elections/${id}`, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },

@@ -54,7 +54,7 @@ const CreateElection = () => {
 
         try {
             await axios.post(
-                'http://localhost:3500/elections',
+                'https://online-voting-system-vw8v.onrender.com/elections',
                 { title, description, startDate, endDate, nominees },
                 {
                     headers: {

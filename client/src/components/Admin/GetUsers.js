@@ -16,7 +16,7 @@ const GetUsers = () => {
       setLoading(true);
       setErrorMessage(''); // Clear previous error message
       try {
-        const response = await axios.get('http://localhost:3500/register', {
+        const response = await axios.get('https://online-voting-system-vw8v.onrender.com/register', {
           headers: {
             Authorization: `Bearer ${token}`,
           },
