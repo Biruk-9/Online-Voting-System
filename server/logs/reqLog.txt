@@ -6281,3 +6281,11 @@
 20251116	14:28:47	1e0a9b7e-2346-4705-8975-010b7137baad	OPTIONS	http://localhost:3000	/elections
 20251116	14:28:47	39133933-37b3-416d-bee3-070ffff331a7	GET	http://localhost:3000	/elections
 20251116	14:28:47	5a9de907-a07b-40f1-acce-6c591ebe1422	GET	http://localhost:3000	/elections
+20251116	15:04:57	7f3aa04a-543c-43ed-ac6b-63edeab5f364	OPTIONS	http://localhost:3000	/auth
+20251116	15:04:57	2c2cece5-239f-4f81-a3df-1b00ebc09330	POST	http://localhost:3000	/auth
+20251116	15:05:06	b8f65b16-0bfe-44e0-b541-f508f49fa739	OPTIONS	http://localhost:3000	/auth
+20251116	15:05:06	47b8e386-3693-4f8c-81ab-e2ed03607e2c	POST	http://localhost:3000	/auth
+20251116	15:05:06	dba03175-4d36-408e-becc-b173eb927760	OPTIONS	http://localhost:3000	/elections
+20251116	15:05:06	207158a6-7ef3-4286-a85a-b5f847ca2909	OPTIONS	http://localhost:3000	/elections
+20251116	15:05:06	eba5bd72-ce66-4389-9a86-c3624073e929	GET	http://localhost:3000	/elections
+20251116	15:05:06	776cc179-a9d9-4d36-9ea2-3117a6f7fbbe	GET	http://localhost:3000	/elections
