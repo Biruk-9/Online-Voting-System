@@ -55,7 +55,6 @@ app.use('/votes', require('./server/routes/api/vote'));
 app.use(errorHandler);
 
 // Start the server and Database
-mongoose.connection.once('open', () => {
-    console.log('Connected to MongoDB');
+
     module.exports = app;
-});
+
