@@ -6289,3 +6289,9 @@
 20251116	15:05:06	207158a6-7ef3-4286-a85a-b5f847ca2909	OPTIONS	http://localhost:3000	/elections
 20251116	15:05:06	eba5bd72-ce66-4389-9a86-c3624073e929	GET	http://localhost:3000	/elections
 20251116	15:05:06	776cc179-a9d9-4d36-9ea2-3117a6f7fbbe	GET	http://localhost:3000	/elections
+20251116	17:33:35	4313bd78-7267-4995-8235-a306ef999b61	OPTIONS	https://online-voting-system-front.onrender.com	/auth
+20251116	17:33:36	749c1913-6c52-4c98-877e-79c60c3bfe78	OPTIONS	https://online-voting-system-front.onrender.com	/auth
+20251116	17:33:37	4a49b59a-f72f-4859-8d8e-e4a6f8b14900	OPTIONS	https://online-voting-system-front.onrender.com	/auth
+20251116	17:33:38	147c05b4-506f-462c-9d08-c67d532382e0	OPTIONS	https://online-voting-system-front.onrender.com	/auth
+20251116	17:34:01	b9aca272-1c1f-43a4-83e6-4baba5b4f198	OPTIONS	https://online-voting-system-front.onrender.com	/auth
+20251116	17:34:12	4fbb5ae3-0295-4390-a516-bc5830ddb62d	OPTIONS	https://online-voting-system-front.onrender.com	/auth
