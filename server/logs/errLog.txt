@@ -14,3 +14,6 @@
 20251116	17:38:16	0aecea13-5136-481b-84eb-1de116be8aa1	Error: Not allowed by CORS
 20251116	17:40:38	ad202372-ec85-49be-b1ff-e3323c372564	Error: Not allowed by CORS
 20251116	17:44:00	bf6e9b8e-039b-47ec-8d95-adc32079cba4	Error: Not allowed by CORS
+20251116	17:47:03	7333330a-7425-4735-ad4b-5557210f20f8	Error: Not allowed by CORS
+20251116	17:55:59	9b7c7daa-8634-4729-b123-c2b0fcabfd2f	Error: Not allowed by CORS
+20251116	17:56:02	57ef10cb-2550-4d68-a4bd-bdb355d7b737	Error: Not allowed by CORS

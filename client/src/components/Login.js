@@ -18,7 +18,7 @@ const Login = () => {
         setLoading(true);
 
         try {
-            const response = await axios.post('http://localhost:3500/auth', { email, password });
+            const response = await axios.post('https://online-voting-system-vw8v.onrender.com/auth', { email, password });
             const { accessToken, role } = response.data;
 
             localStorage.setItem('token', accessToken);
